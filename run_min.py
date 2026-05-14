@@ -6,8 +6,6 @@ client = OpenAI(api_key=OPENAI_KEY)
 
 start_time = time.time()
 
-prompt = "你是誰"
-
 prompt = """\
 你是一個親切的問答助手
 
@@ -17,6 +15,8 @@ prompt = """\
 
 <使用者問題>高雄宇宙港啟用時間</使用者問題>
 """
+
+prompt = "你是誰"
 
 
 print("=== 系統指令 ===")
